@@ -1,0 +1,1 @@
+for file in $(ls inhere/*); do file $file; done | grep ASCII
